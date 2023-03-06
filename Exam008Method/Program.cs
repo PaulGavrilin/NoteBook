@@ -7,7 +7,6 @@
     }
 
 int a1 = 12;
-int b1 = 14;
 int c1 = 16;
 int a2 = 18;
 int b2 = 20;
