@@ -32,6 +32,9 @@ SelectionSort(array1);
 
 PrintArray(array1);
 
+
+
+
 // void SelectionSort(int[] array)
 //{
 //    for (int i = 0; i < array.Length - 1 ; i = i + 1)
