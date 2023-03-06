@@ -33,16 +33,39 @@ int year = Method3();
 //Console.WriteLine(year);
 
 //вид 4
-string Method4(int count, string c)
+//string Method4(int count, string c)
 {
-    int i = 0;
-    string result = String.Empty;
-    while (i < count)
+//    int i = 0;
+//   string result = String.Empty;
+//    while (i < count)
     {
-        result = result + c;
-        i = i + 1;
+//        result = result + c;
+//        i = i + 1;
     }
-    return result;
+//    return result;
 }
-string res = Method4(10,"asdf");
+//string res = Method4(10,"asdf");
 //Console.WriteLine(res);
+
+//цикл for
+
+//string Method4(int count, string c)
+{
+//    string result = String.Empty;
+//    for( int i = 0; i < count; i = i + 1) 
+    {
+//        result = result + c;
+    }
+//    return result;
+}
+//string res = Method4(10,"asdf");
+//Console.WriteLine(res);
+
+for (int i = 2; i <= 10; i = i + 1)
+{
+    for (int j = 2; j <= 10; j = j + 1)
+    {
+        System.Console.WriteLine($"{i} x {j} = {i*j}");
+    }
+    System.Console.WriteLine();
+}
