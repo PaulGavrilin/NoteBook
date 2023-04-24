@@ -1,7 +1,7 @@
 Console.Write("enter 1st number: ");
-int a = int.Parse(Console.ReadLine() ?? "0");
+int a = int.Parse(Console.ReadLine()!);
 Console.Write("enter 2nd number: ");
-int b = int.Parse(Console.ReadLine() ?? "0");
+int b = int.Parse(Console.ReadLine()!);
 if (a>b)
 {
     Console.Write("Biggest: ");
