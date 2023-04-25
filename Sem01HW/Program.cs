@@ -9,4 +9,5 @@ string E = friday;
 string F = saturday;
 string G = sunday;
 if (int a = 1)
+Console.Write("today is ");
 Console.WriteLine(string A);
